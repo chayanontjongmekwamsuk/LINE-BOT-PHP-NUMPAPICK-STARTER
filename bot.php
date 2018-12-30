@@ -2,6 +2,8 @@
  require("pub.php");
  require("line.php");
 
+ <?phpecho "I am a bot";
+
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
