@@ -4,6 +4,7 @@
 
  <?phpecho "I am a bot";
 
+/*
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -41,3 +42,4 @@ $text = "Test";
 getMqttfromlineMsg($Topic,$text);
 echo "OK3";
 ?>
+*/
