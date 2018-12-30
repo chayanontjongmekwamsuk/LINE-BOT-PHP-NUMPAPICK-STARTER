@@ -4,7 +4,6 @@
 
  <?phpecho "I am a bot";
 
-/*
 // Get POST body content
 $content = file_get_contents('php://input');
 // Parse JSON
@@ -15,7 +14,7 @@ if (!is_null($events['ESP'])) {
 	
 	send_LINE($events['ESP']);
 		
-	echo "OK";
+	echo "I am a bot";
 	}
 if (!is_null($events['events'])) {
 	echo "line bot";
@@ -42,4 +41,3 @@ $text = "Test";
 getMqttfromlineMsg($Topic,$text);
 echo "OK3";
 ?>
-*/
